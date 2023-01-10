@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "274250804632",
+    "project_id": "shubhi-brew-crew",
+    "storage_bucket": "shubhi-brew-crew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274250804632:android:e71d09902eea1c524b4fed",
+        "android_client_info": {
+          "package_name": "com.example.brew_crew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274250804632-i78jo9e05kgjdg2ogj4g3ibdcullac9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGaQvhmrL3gI6Mb8puDsnhZw2bbNEaqLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274250804632-i78jo9e05kgjdg2ogj4g3ibdcullac9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
