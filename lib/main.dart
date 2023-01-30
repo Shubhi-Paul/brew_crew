@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return StreamProvider<OurUser?>.value(
-      catchError: (_, __) => null,
+      catchError: (_, __) => null, //imp
       initialData: null,
       value: AuthService().user,
       child: Wrapper());
