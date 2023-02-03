@@ -17,12 +17,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Flutter & FireBase',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home:  MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
@@ -44,6 +41,6 @@ class _MyHomePageState extends State<MyHomePage> {
       catchError: (_, __) => null, //imp
       initialData: null,
       value: AuthService().user,
-      child: Wrapper());
+      child: const Wrapper());
   }
 }
